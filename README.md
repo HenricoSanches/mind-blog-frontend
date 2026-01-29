@@ -1,16 +1,101 @@
-# React + Vite
+# Mind Blog – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend do projeto **Mind Blog**, desenvolvido em React.
 
-Currently, two official plugins are available:
+## 🖥️ Tecnologias
+- React
+- Vite
+- Axios
+- React Router
+- CSS puro
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
+- Listagem de artigos
+- Visualização de artigo
+- Comentários
+- Login e cadastro
+- Upload de imagem
+- Perfil do usuário
 
-## React Compiler
+## ▶️ Como rodar o projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+A aplicação estará disponível em:
 
-## Expanding the ESLint configuration
+http://localhost:5173
+🔗 Backend
+Este frontend consome a API disponível em:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+http://localhost:3333
+
+---
+
+## ✍️ README BACKEND — MODELO
+
+```md
+# Mind Blog – Backend
+
+API REST do projeto **Mind Blog**.
+
+## 🛠️ Tecnologias
+- Node.js
+- Express
+- TypeScript
+- MySQL
+- JWT
+- Multer
+
+## 🚀 Funcionalidades
+- Autenticação com JWT
+- CRUD de usuários
+- CRUD de artigos
+- Upload de imagens
+- Comentários em artigos
+
+## ⚙️ Variáveis de ambiente
+
+Crie um arquivo `.env`:
+
+```env
+PORT=3333
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=mind_blog
+JWT_SECRET=sua_chave_secreta
+▶️ Como rodar
+npm install
+npm run dev
+Servidor rodando em:
+
+http://localhost:3333
+📌 Rotas principais
+POST /auth/login
+
+POST /auth/register
+
+GET /posts
+
+POST /posts
+
+POST /posts/:id/comments
+
+
+---
+
+## 🧠 DICA DE OURO (avançado)
+Se quiser subir o nível:
+- adiciona **prints** no README do frontend
+- adiciona **diagrama simples** ou lista de rotas no backend
+
+---
+
+Se quiser, no próximo passo eu:
+- ✍️ escrevo o README **100% personalizado** pro teu projeto
+- 🧹 deixo ele com cara de **case profissional**
+- 🧠 adapto linguagem pra **recrutador da Mind Group**
+
+É só falar 👊
+::contentReference[oaicite:0]{index=0}
