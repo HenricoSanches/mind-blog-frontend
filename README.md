@@ -25,11 +25,11 @@ A aplicação estará disponível em:
 
 http://localhost:5173
 
-##🔐 Autenticação
+## 🔐 Autenticação
 
 Algumas rotas (criar, editar, excluir artigos e comentar) exigem usuário autenticado.
 
-##📌 Observações
+## 📌 Observações
 
 O frontend consome a API do backend em http://localhost:3333
 Layout baseado no Figma fornecido
