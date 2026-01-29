@@ -1,0 +1,83 @@
+.settings-page {
+  padding: 60px 24px;
+}
+
+.settings-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #22d3ee;
+  font-size: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #9ca3af;
+  margin-bottom: 32px;
+}
+
+.settings-card {
+  background: #0b1220;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.avatar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar-section img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hint {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+.account-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.account-info .label {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.full {
+  width: 100%;
+  margin-top: 12px;
+}
