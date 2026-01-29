@@ -19,7 +19,6 @@ Frontend do projeto **Mind Blog**, desenvolvido em React.
 
 ## ▶️ Como rodar o projeto
 
-```bash
 npm install
 npm run dev
 A aplicação estará disponível em:
@@ -34,7 +33,6 @@ http://localhost:3333
 
 ## ✍️ README BACKEND — MODELO
 
-```md
 # Mind Blog – Backend
 
 API REST do projeto **Mind Blog**.
@@ -58,7 +56,6 @@ API REST do projeto **Mind Blog**.
 
 Crie um arquivo `.env`:
 
-```env
 PORT=3333
 DB_HOST=localhost
 DB_USER=root
@@ -81,21 +78,3 @@ GET /posts
 POST /posts
 
 POST /posts/:id/comments
-
-
----
-
-## 🧠 DICA DE OURO (avançado)
-Se quiser subir o nível:
-- adiciona **prints** no README do frontend
-- adiciona **diagrama simples** ou lista de rotas no backend
-
----
-
-Se quiser, no próximo passo eu:
-- ✍️ escrevo o README **100% personalizado** pro teu projeto
-- 🧹 deixo ele com cara de **case profissional**
-- 🧠 adapto linguagem pra **recrutador da Mind Group**
-
-É só falar 👊
-::contentReference[oaicite:0]{index=0}
