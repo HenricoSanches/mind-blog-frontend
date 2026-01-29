@@ -28,7 +28,3 @@ http://localhost:5173
 Este frontend consome a API disponível em:
 
 http://localhost:3333
-
----
-
-## ✍️ README BACKEND — MODELO
