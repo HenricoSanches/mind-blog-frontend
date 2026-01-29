@@ -24,7 +24,12 @@ npm run dev
 A aplicação estará disponível em:
 
 http://localhost:5173
-🔗 Backend
-Este frontend consome a API disponível em:
 
-http://localhost:3333
+##🔐 Autenticação
+
+Algumas rotas (criar, editar, excluir artigos e comentar) exigem usuário autenticado.
+
+##📌 Observações
+
+O frontend consome a API do backend em http://localhost:3333
+Layout baseado no Figma fornecido
